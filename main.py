@@ -8,7 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 load_dotenv()
 HF_API_KEY = os.getenv("HF_API_KEY")
 
-MODEL = "HuggingFaceH4/zephyr-7b-beta"
+MODEL = "google/gemma-2b"
 
 app = FastAPI()
 
